@@ -3,12 +3,14 @@
   <main class="main home four-fifths" role="main">
 
   <?php foreach(page('reviews')->children()->visible() as $review):?>
-  
+
   <a href="<?php echo $review->url() ?>">
   <div class="review">
 	  <header class="one-fifth">
 	    <h1><?php echo $review->title()->html() ?></h1>
 	    <p class="meta"><?php echo $review->tags() ?></p>
+
+
 	  </header>
 
     <div class="text three-fifths end">

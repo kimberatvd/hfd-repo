@@ -46,6 +46,12 @@ img {
 	margin-bottom: 1em;
 }
 
+header .intro-button {
+	width: 1.5em;
+	float:right;
+	border:0;
+}
+
 
 /* Links
 -------------------------------------------------- */
@@ -253,11 +259,13 @@ aside p {
 
 aside ul {
   list-style-type: none;
+  margin-bottom: 1.5em;
 }
 
 aside ul li {
   font-size: .75em;
   line-height: 2em;
+  text-transform: lowercase;
 }
 
 .home h2 {
@@ -272,6 +280,7 @@ aside ul li {
   padding-bottom: 1.5em;
   border-bottom: 1px solid #808080;
   margin-bottom: 1.5em;
+  display: none;
 }
 
 .intro header {
@@ -327,6 +336,8 @@ aside ul li {
   color: #000;
   padding-right: .25em;
 }
+
+.review header {text-align: right;}
 
 
 /* Project teaser

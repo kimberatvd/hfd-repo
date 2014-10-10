@@ -8,15 +8,16 @@
   </ul>
 
   <h4>locations</h4>
-  <ul>
-    <li>boston</li>
-    <li>cambridge</li>
-    <li>south end</li>
-    <li>harvard square</li>
-    <li>downtown crossing</li>
-    <li>waterfront</li>
-    <li>new brunswick</li>
-    <li>kendall square</li>
+  <?php $tags = $pages->find('reviews')->children()->visible()->pluck('tags', ',', true); ?>
+
+  <ul >
+    <?php foreach($tags as $tag): ?>
+    <li>
+      <a href=" <?php echo url( 'reviews/tag:' . $tag) ?>">
+        <?php echo html($tag) ?>
+      </a>
+    </li>
+    <?php endforeach ?>
   </ul>
 
   <h4>latest tweet</h4>
