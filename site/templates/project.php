@@ -1,15 +1,21 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <main class="main review" role="main">
 
+  <header>
     <h1><?php echo $page->title()->html() ?></h1>
 
-    <ul class="meta cf">
-      <li><b>Year:</b> <time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date('Y', 'year') ?></time></li>
-      <li><b>Tags:</b> <?php echo $page->tags() ?></li>
-    </ul>
+
+    <p class="meta"><?php echo $page->tags() ?></p>
+
+
+
+
+  </header>
 
     <div class="text">
+      <h2><?php echo $page->articletitle()->html() ?></h2>
+      <h3><?php echo $page->subtitle()->html() ?></h3>
       <?php echo $page->text()->kirbytext() ?>
 
       <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>

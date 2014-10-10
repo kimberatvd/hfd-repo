@@ -6,11 +6,11 @@ Intro: Most restaurant reviews focus on just one part of the dining experience: 
 
 ----
 
-About: Hungry for Design is the opinion of Susan Battista and Fritz Klaetke — partners in both work and life. By day they run Visual Dialogue, a design firm creating branding and websites for restaurants and hospitality groups and by night, they can be found sharing meals (and opinions) at restaurants all over Boston and beyond.
+About: Hungry for Design is the opinion of Susan Battista and Fritz Klaetke — partners in both work and life. By day they run (link:http://visualdialogue.com text:Visual Dialogue popup:yes), a design firm creating branding and websites for restaurants and hospitality groups and by night, they can be found sharing meals (and opinions) at restaurants all over Boston and beyond.
 
 ----
 
 Contact:
 
-info@hungryfordesignreview.com
-@hungryfordesign
+(email:info@hungryfordesignreview.com text:email us!)
+(link: twitter.com text:@hungryfordesign popup:yes)
