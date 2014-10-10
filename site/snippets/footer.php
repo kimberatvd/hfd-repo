@@ -1,14 +1,13 @@
-<!--   <footer class="footer cf" role="contentinfo">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <div class="copyright">
-      <?php echo $site->copyright()->kirbytext() ?>
-    </div>
+<script>
 
-    <div class="colophon">
-      <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
-    </div>
-
-  </footer> -->
+$( ".intro-button" ).click(function() {
+  $( "section.intro" ).slideToggle( 200, "linear", function() {
+    // Animation complete.
+  });
+});
+</script>
 
 </body>
 </html>

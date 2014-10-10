@@ -18,6 +18,9 @@
     <a class="logo" href="<?php echo url() ?>">
       <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
     </a>
+    <a class="intro-button" href="#">
+      <img src="<?php echo url('assets/images/intro-button.svg') ?>" alt="intro button" />
+    </a>
   </header>
 
     <?php snippet('about') ?>

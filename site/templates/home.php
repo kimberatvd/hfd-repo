@@ -3,6 +3,8 @@
   <main class="main home four-fifths" role="main">
 
   <?php foreach(page('reviews')->children()->visible() as $review):?>
+  
+  <a href="<?php echo $review->url() ?>">
   <div class="review">
 	  <header class="one-fifth">
 	    <h1><?php echo $review->title()->html() ?></h1>
@@ -15,6 +17,8 @@
       <h3><?php echo $review->subtitle()->html() ?></h3>
     </div>
   </div>
+	</a>
+
   <?php endforeach ?>
   </main>
 
