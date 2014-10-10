@@ -1,8 +1,8 @@
 <section class="intro cf">
-	<div class="four-fifths">
+	<article class="four-fifths">
 		<header><p><?php echo $site->page('about')->intro() ?></p></header>
 		<p class="about"><?php echo $site->page('about')->about() ?></p>
-	</aside><!--four-fifths-->
+	</article><!--four-fifths-->
 
 	<aside>
 		<h4>contact</h4>
