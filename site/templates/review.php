@@ -19,15 +19,15 @@
       <?php echo $page->text()->kirbytext() ?>
 
 
-      <nav class="nextprev cf" role="navigation">
-        <?php if($prev = $page->prevVisible()): ?>
-          <a class="prev" href="<?php echo $prev->url() ?>">&larr; previous</a>
-        <?php endif ?>
-
-        <?php if($next = $page->nextVisible()): ?>
-          <a class="next" href="<?php echo $next->url() ?>">next &rarr;</a>
-        <?php endif ?>
-      </nav>
+    <nav class="nextprev cf" role="navigation">
+      <?php if($prev = $page->prevVisible()): ?>
+      <a class="prev" href="<?php echo $prev->url() ?>"><img src="/assets/images/arrow-prev.svg"></a>
+      <?php endif ?>
+      
+      <?php if($next = $page->nextVisible()): ?>
+      <a class="next" href="<?php echo $next->url() ?>"><img src="/assets/images/arrow-next.svg"></a>
+      <?php endif ?>
+    </nav>
     </div>
 
     <?php snippet('sidebar') ?>

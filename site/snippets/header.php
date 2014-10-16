@@ -11,10 +11,10 @@
 
   <?php echo css('assets/css/main.css') ?>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 </head>
 <body>
-
-<?php include 'assets/tweet-php/TweetPHP.php'; ?>
 
   <header class="header cf" role="banner">
     <a class="logo" href="<?php echo url() ?>">
