@@ -278,6 +278,11 @@ aside ul li {
 
 .home h3 {margin-bottom:2em;}
 
+figcaption {
+  margin-top:10px;
+  font-size: .75em;
+  color: #808080;
+}
 
 /* Intro
 -------------------------------------------------- */
